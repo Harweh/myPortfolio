@@ -10,10 +10,10 @@ import { SiGithub, SiLinkedin, SiWhatsapp } from 'react-icons/si';
 
 export default function Home() {
     return (
-        <div className="max-h-screen bg-gradient-to-br from-gray-900 via-gray-900/20 to-grey-900 relative overflow-hidden pt-110 md:pt-110 lg:pt-115">
+        <div className="max-h-screen bg-gradient-to-br from-gray-900 via-gray-900/20 to-grey-900 relative overflow-hidden pt-16 md:pt-110 lg:pt-115">
 
             {/* Main Content */}
-            <div className="relative z-10 flex item-center justify-center min-h-screen px-4 pt-4 md:pt-18 lg:pt-20 py-8 ">
+            <div className="relative z-10 flex item-center justify-center min-h-screen px-4 pt- md:pt-18 lg:pt-20 py-8 ">
                 <div className="max-w-5xl w-full text-center space-y-8 ">
 
                     {/* welcome Badge */}
@@ -23,13 +23,13 @@ export default function Home() {
                     </div>
                     
                     {/* main heading */}
-                    <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-7xl font-bold animate-fade-in-up">
+                    <h1 className="text-3xl md:text-6xl lg:text-7xl font-bold animate-fade-in-up">
                         <span className="block bg-gradient-to-r from-white-400 to-green-400 to-black-400 bg-clip-text text-transparent mb-4">Hello, I'm</span>
                         <span className="block text-gray-500">Emmanuel Oluwatobi Awe.</span>
                     </h1>
 
                     {/* subtitle */}
-                    <p className="text-xl md:text-2xl text-gray-400 max-w-3xl mx-auto leading-relaxed animate-faded-in-up animation-delay-200">
+                    <p className="text-sm md:text-2xl text-gray-400 max-w-3xl mx-auto leading-relaxed animate-faded-in-up animation-delay-200">
                         <span className=" bg-gradient-to-r from-green-400 to-black-400 to-green-400 bg-clip-text text-transparent"> Full-stack developer </span> 
                         crafting beautiful, functional web applications with
                         modern technologies and creative solutions.

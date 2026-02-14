@@ -37,7 +37,7 @@ export default function Navbar() {
                             <div className="relative">
                                 <div className="w-27 h-12 bg-gradient-to-br from-black-700 to-green-700 rounded-xl flex 
                                     items-center justify-center transfomr group-hover:scale-110 transition-transform duration-300">
-                                    <span className='text-white font-bold text-xl pt-2'>EMMY.Dv</span>
+                                    <span className='text-white font-bold text-xl sm:text-sm md:text-xl pt-2'>EMMY.Dv</span>
                                 </div>
                                 {/* glow effect */}
                                 <div className="absolute inset-0 bg-graadient-to-br from-purple-500 to-pink-500 rounded-xl
