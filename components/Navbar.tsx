@@ -79,7 +79,7 @@ export default function Navbar() {
                         <div className="md:hidden relative flex items-center gap-2 ">
                         <Link
                             href="/contact"
-                            className='relative px-2 py-1 bg-gradient-to-r from-green-500 to-black text-white front-semibold rounded-xl overflow-hidden group hover:from-pink-400'>
+                            className='relative px-2 py-0.5 bg-gradient-to-r from-green-500 to-black text-white front-semibold rounded-xl overflow-hidden group hover:from-pink-400'>
                                 <span className="relative z-10 text-sm">Schedule a meeting</span>
                                 {/* shinning effect */}
                                 <div className="absolute inset-0 bg-gradient-to-r from-transparent to-transparent translate-x-[-100%] group-hover:translate-x-[-100%] transition duration-700">
@@ -117,7 +117,7 @@ export default function Navbar() {
             {/* mobile */}
                         <Link href="/contact"
                         onClick={() => setIsOpen(false)}
-                        className='block px-4 py-3 bg-gradient-to-r from-green-500 to-black text-white text-center font-semibold text-sm rounded-full mt-8 '>
+                        className='block px-4 py-3 bg-gradient-to-r from-green-500 to-black text-white text-center font-semibold text-sm rounded-2xl mt-8 '>
                             Get in Touch
                         </Link>
                 </div>
