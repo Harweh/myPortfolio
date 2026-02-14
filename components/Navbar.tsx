@@ -30,14 +30,14 @@ export default function Navbar() {
             scrolled ? 'bg-gray-900/90 backdrop-blur-lg shadow-lg shadow-purple-500/10' : 'bg-transparent'
         }`}>
             <div className="w-full relative mx-auto px-2 lg:px-8">
-                <div className="flex items-center justify-between h-15 md:h-20 lg:h-20">
+                <div className="flex items-center justify-between h-13 md:h-20 lg:h-20">
 
                         {/* logo */}
                         <Link href="/" className='group flex md:px-2 lg:px-2 items-center space-y- md:space-y-2 lg:space-y-1'>
                             <div className="relative">
-                                <div className="w-22 md:w-27 lg:w-27 h-8 md:h-12 lg:h-12 pb-2 bg-gradient-to-br from-black-700 to-green-700 rounded-xl flex 
+                                <div className="w-22 md:w-27 lg:w-27 h-7 md:h-12 lg:h-12 pb-2 bg-gradient-to-br from-black-700 to-green-700 rounded-xl flex 
                                     items-center justify-center transfomr group-hover:scale-110 transition-transform duration-300">
-                                    <span className='text-white font-bold texts-sm sm:text-sm md:text-xl lg:text-xl pt-3.5'>EMMY.Dv</span>
+                                    <span className='text-white font-bold texts-sm sm:text-sm md:text-xl lg:text-xl pt-2.5'>EMMY.Dv</span>
                                 </div>
                                 {/* glow effect */}
                                 <div className="absolute inset-0 bg-graadient-to-br from-purple-500 to-pink-500 rounded-xl
@@ -76,11 +76,11 @@ export default function Navbar() {
 
                     {/* mobile menu button */}
 
-                        <div className="md:hidden relative flex items-center gap-5 ">
+                        <div className="md:hidden relative flex items-center gap-2 ">
                         <Link
                             href="/contact"
-                            className='relative px-4 py-2 bg-gradient-to-r from-green-500 to-black text-white front-semibold rounded-xl overflow-hidden group hover:from-pink-400'>
-                                <span className="relative  z-10">Get in Touch</span>
+                            className='relative px-2 py-1 bg-gradient-to-r from-green-500 to-black text-white front-semibold rounded-xl overflow-hidden group hover:from-pink-400'>
+                                <span className="relative z-10 text-sm">Schedule a meeting</span>
                                 {/* shinning effect */}
                                 <div className="absolute inset-0 bg-gradient-to-r from-transparent to-transparent translate-x-[-100%] group-hover:translate-x-[-100%] transition duration-700">
             
@@ -90,7 +90,7 @@ export default function Navbar() {
                         <button onClick={() => setIsOpen(!isOpen)} 
                             className='md:hidden relative w-10 h-10 text-gray-300 hover:text-white transition-colors focus:outline-none'
                             aria-label='Toggle menu'>
-                                {isOpen ? <X size={22} /> : <Menu size={22}/>}
+                                {isOpen ? <X size={15} /> : <Menu size={15}/>}
                         </button>
                     </div>
                     
@@ -104,7 +104,7 @@ export default function Navbar() {
 
             {/* mobile menu */}
             <div className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"}`}>
-                            <div className="px-4 pt-2 pb-6 space-y-2 bg-gray-900/95 backddrop-blur-lg borger-t border-gray-800">
+                            <div className="px-4 pt-2 pb-6 space-x-2 space-y-0 bg-gray-900/95 backddrop-blur-lg borger-t border-gray-800">
                                 {navLinks.map((link) => (
                                     <Link
                                     key={link.name}
@@ -117,7 +117,7 @@ export default function Navbar() {
             {/* mobile */}
                         <Link href="/contact"
                         onClick={() => setIsOpen(false)}
-                        className='block px-4 py-3 bg-gradient-to-r from-green-500 to-black text-white text-center font-semibold rounded-lg mt-12 '>
+                        className='block px-4 py-3 bg-gradient-to-r from-green-500 to-black text-white text-center font-semibold text-sm rounded-full mt-8 '>
                             Get in Touch
                         </Link>
                 </div>
