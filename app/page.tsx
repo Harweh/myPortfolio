@@ -13,11 +13,11 @@ export default function Home() {
         <div className="max-h-screen bg-gradient-to-br from-gray-900 via-gray-900/20 to-grey-900 relative overflow-hidden pt-32 md:pt-55 lg:pt-115">
 
             {/* Main Content */}
-            <div className="relative z-10 flex item-center justify-center min-h-screen px-16 pt-8  md:pt-16 lg:pt-20 py-8 ">
-                <div className="max-w-5xl w-full text-center space-y-6 ">
+            <div className="relative z-10 flex item-center justify-center min-h-screen px-8 pt-2  md:pt-16 lg:pt-20 py-8 ">
+                <div className="max-w-5xl w-full text-center space-y-2  md:space-y-4 lg:space-y-6">
 
                     {/* welcome Badge */}
-                    <div className="inline-flex items-center justify-center gap-3 px-2 md:px-4 lg:px-6 py-2 md:py-4 lg:py-4 
+                    <div className="inline-flex items-center justify-center gap-2 md:gap-3 lg:gap-3 px-2 md:px-4 lg:px-6 py-2 md:py-4 lg:py-4 
                             bg-white/5 backdrop-blur-lg border border-white/10 rounded-full text-sm md:text-xl lg:text-xl text-gray-300 mb-8 animate-fade-in">
                         <Sparkles className="w-4 md:w-6 lg:w-8 h-4 text-green-400" />
                         <span>Welcome to my portfolio</span>
