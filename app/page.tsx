@@ -13,12 +13,12 @@ export default function Home() {
         <div className="max-h-screen bg-gradient-to-br from-gray-900 via-gray-900/20 to-grey-900 relative overflow-hidden pt-32 md:pt-55 lg:pt-115">
 
             {/* Main Content */}
-            <div className="relative z-10 flex item-center justify-center min-h-screen px-8 pt-2  md:pt-16 lg:pt-20 py-8 ">
+            <div className="relative z-10 flex item-center justify-center min-h-screen px-8 pt-4 md:pt-16 lg:pt-20 py-8 ">
                 <div className="max-w-5xl w-full text-center space-y-2 md:space-y-4 lg:space-y-6">
 
                     {/* welcome Badge */}
                     <div className="inline-flex items-center justify-center gap-2 md:gap-3 lg:gap-3 px-2 md:px-4 lg:px-6 py-2 md:py-4 lg:py-4 
-                            bg-white/5 backdrop-blur-lg border border-white/10 rounded-full text-sm md:text-xl lg:text-xl text-gray-300 mb-4 animate-fade-in">
+                            bg-white/5 backdrop-blur-lg border border-white/10 rounded-full text-sm md:text-xl lg:text-xl text-gray-300 mb-2 animate-fade-in">
                         <Sparkles className="w-4 md:w-6 lg:w-8 h-4 text-green-400" />
                         <span>Welcome to my portfolio</span>
                     </div>
@@ -30,8 +30,8 @@ export default function Home() {
                     </h1>
 
                     {/* subtitle */}
-                    <p className="text-sm md:text-2xl text-gray-400 max-w-3xl mx-auto leading-relaxed animate-faded-in-up animation-delay-200">
-                        <span className=" bg-gradient-to-r from-green-400 to-black-400 to-green-400 bg-clip-text text-transparent"> Full-stack developer </span> 
+                    <p className="text-sm md:text-2xl text-gray-400 max-w-4xl mx-auto leading-relaxed animate-faded-in-up animation-delay-200">
+                        <span className=" bg-gradient-to-r from-green-400 to-black-400 to-green-400 bg-clip-text text-transparent">  Full-stack developer </span> 
                         crafting beautiful, functional web applications with
                         modern technologies and creative solutions.
 
@@ -103,8 +103,8 @@ export default function Home() {
                     <div className="flex flex-row md:flex-col-2 lg:flex-col-2 gap-2 md:gap-4 lg:gap-4 justify-center items-center pt-4 md:pt-6 lg:pt-6 animte-fade-on-up animation-delay-600">
                         {/* primary button */}
                         <Link href="/projects"
-                            className="relative px-3 md:px-6 lg:px-8 py-2.5 md:py-4 lg:py-4 bg-gradient-to-r from-black-500 to-green-500 te-black-500 text-white font-semibold rounded-xl overflow-hidden transition-all hover:scale-105 hover:shadow-lg hover:shadow-purple-500/50">
-                                <span className="relative z-10 flex items-center gap-2">
+                            className="relative px-3 md:px-6 lg:px-8 py-1.5 md:py-4 lg:py-4 bg-gradient-to-r from-black-500 to-green-500 te-black-500 text-white font-semibold rounded-xl overflow-hidden transition-all hover:scale-105 hover:shadow-lg hover:shadow-purple-500/50">
+                                <span className="relative text-sm md:text-2xl lg:text-2xl z-10 flex items-center gap-2">
                                     View My Work
                                     {/* <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform"/> */}
                                 </span>
@@ -113,8 +113,8 @@ export default function Home() {
 
                         {/* secondary link */}
                         <Link href="/contact" 
-                            className="group px-1 md:px-6 lg:px-8 py-2.5 md:py-4 lg:py-4 bg-white/5 backdrop-blur-lg border-2 border-white/10 text-white font-semibold rounded-xl hover:border-white/20 transition-all">
-                            <span className="relative z-10 flex items-center gap-2">
+                            className="group px-1 md:px-6 lg:px-8 py-1.5 md:py-4 lg:py-4 bg-white/5 backdrop-blur-lg border-2 border-white/10 text-white font-semibold rounded-xl hover:border-white/20 transition-all">
+                            <span className="relative text-sm md:text-2xl lg:text-2xl z-10 flex items-center gap-2">
                                 Connect with me
                                 {/* <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform"/> */}
                             </span>
