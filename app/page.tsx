@@ -38,7 +38,7 @@ export default function Home() {
                     </p>
 
                     {/* feature tags */}
-                    <div className="flex flex-wrap justify-center gap-2 md:gap-4 lg:gap-5 md:pt-4 lg:pt-4 animate-fade-in-up animation-delay-400">
+                    <div className="flex flex-wrap justify-center text-sm md:text-base lg:text-base gap-2 md:gap-4 lg:gap-5 md:pt-4 lg:pt-4 animate-fade-in-up animation-delay-400">
 
                         <div className="dlex items-center gap-2 px-2 md:px-4 lg:px-4 py-1 md:py-2 lg:py-2 bg-purple-500/10 border-pink-500/20 rounded-lg">
                             <Code className="w-5 h-5 text-blue-400" />
@@ -46,7 +46,7 @@ export default function Home() {
                         </div>
                         <div className="dlex items-center gap-2 px-2 md:px-4 lg:px-4 py-1 md:py-2 lg:py-2 bg-purple-500/10 border-pink-500/20 rounded-lg">
                             <Zap className="w-5 h-5 text-yellow-400"/>
-                            <span className="text-gray-300">Fast Performance</span>
+                            <span className="text-gray-300 ">Fast Performance</span>
                         </div>
                         <div className="dlex items-center gap-2 px-2 md:px-6 lg:px-4 py-1 md:py-2 lg:py-2 bg-purple-500/10 border-pink-500/20 rounded-lg">
                             <Sparkles className="w-5 h-5 text-green-400"/>
@@ -100,7 +100,7 @@ export default function Home() {
                     </div>
 
                     {/* Buttons */}
-                    <div className="flex flex-col sm:flex-row gap-2 md:gap-4 lg:gap-4 justify-center items-center pt-2 md:pt-6 lg:pt-6 animte-fade-on-up animation-delay-600">
+                    <div className="flex flex-col-2 md:flex-col-2 lg:flex-col-2 gap-2 md:gap-4 lg:gap-4 justify-center items-center pt-2 md:pt-6 lg:pt-6 animte-fade-on-up animation-delay-600">
                         {/* primary button */}
                         <Link href="/projects"
                             className="relative px-3 md:px-6 lg:px-8 py-2.5 md:py-4 lg:py-4 bg-gradient-to-r from-black-500 to-green-500 te-black-500 text-white font-semibold rounded-xl overflow-hidden transition-all hover:scale-105 hover:shadow-lg hover:shadow-purple-500/50">
@@ -113,7 +113,7 @@ export default function Home() {
 
                         {/* secondary link */}
                         <Link href="/contact" 
-                            className="group px-3 md:px-6 lg:px-8 py-2.5 md:py-4 lg:py-4 bg-white/5 backdrop-blur-lg border-2 border-white/10 text-white font-semibold rounded-xl hover:border-white/20 transition-all">
+                            className="group px-1 md:px-6 lg:px-8 py-2.5 md:py-4 lg:py-4 bg-white/5 backdrop-blur-lg border-2 border-white/10 text-white font-semibold rounded-xl hover:border-white/20 transition-all">
                             <span className="relative z-10 flex items-center gap-2">
                                 Connect with me
                                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform"/>
