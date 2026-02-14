@@ -1,11 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
-import { ArrowRight, Sparkles, Code, Zap, Github, Linkedin, LinkedinIcon, X } from 'lucide-react';
+import { ArrowRight, Sparkles, Code, Zap, X } from 'lucide-react';
 import Link from "next/link";
-import { BsWhatsapp } from 'react-icons/bs';
-import { FaFacebook, FaGithub, FaInstagram, FaWhatsapp } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+// import { BsWhatsapp } from 'react-icons/bs';
+// import { FaFacebook, FaGithub, FaInstagram, FaWhatsapp } from "react-icons/fa";
+// import { FaXTwitter } from "react-icons/fa6";
 import { SiGithub, SiLinkedin, SiWhatsapp } from 'react-icons/si';
-import { SlSocialTwitter } from 'react-icons/sl';
+// import { SlSocialTwitter } from 'react-icons/sl';
 
 
 export default function Home() {
