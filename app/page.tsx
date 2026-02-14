@@ -14,11 +14,11 @@ export default function Home() {
 
             {/* Main Content */}
             <div className="relative z-10 flex item-center justify-center min-h-screen px-8 pt-2  md:pt-16 lg:pt-20 py-8 ">
-                <div className="max-w-5xl w-full text-center space-y-2  md:space-y-4 lg:space-y-6">
+                <div className="max-w-5xl w-full text-center space-y-2 md:space-y-4 lg:space-y-6">
 
                     {/* welcome Badge */}
                     <div className="inline-flex items-center justify-center gap-2 md:gap-3 lg:gap-3 px-2 md:px-4 lg:px-6 py-2 md:py-4 lg:py-4 
-                            bg-white/5 backdrop-blur-lg border border-white/10 rounded-full text-sm md:text-xl lg:text-xl text-gray-300 mb-8 animate-fade-in">
+                            bg-white/5 backdrop-blur-lg border border-white/10 rounded-full text-sm md:text-xl lg:text-xl text-gray-300 mb-4 animate-fade-in">
                         <Sparkles className="w-4 md:w-6 lg:w-8 h-4 text-green-400" />
                         <span>Welcome to my portfolio</span>
                     </div>
@@ -38,14 +38,14 @@ export default function Home() {
                     </p>
 
                     {/* feature tags */}
-                    <div className="flex flex-wrap flex-col-3 md:flex-col-3 lg:flex-col-3 justify-center text-sm md:text-base lg:text-base gap-2 md:gap-4 lg:gap-5 md:pt-4 lg:pt-4 animate-fade-in-up animation-delay-400">
+                    <div className="flex flex-wrap flex-col-3 md:flex-col-3 lg:flex-col-3 justify-center text-sm md:text-base lg:text-base gap-2 md:gap-4 lg:gap-5 pt-2 md:pt-4 lg:pt-4 animate-fade-in-up animation-delay-400">
 
                         <div className="dlex items-center gap-2 px-2 md:px-4 lg:px-4 py-1 md:py-2 lg:py-2 bg-purple-500/10 border-pink-500/20 rounded-lg">
-                            <Code className="w-5 h-5 text-blue-400" />
+                            <Code className="w-5 h-5 size-1 text-blue-400" />
                             <span className="text-gray-300">Clean Code</span>
                         </div>
                         <div className="dlex items-center gap-2 px-2 md:px-4 lg:px-4 py-1 md:py-2 lg:py-2 bg-purple-500/10 border-pink-500/20 rounded-lg">
-                            <Zap className="w-5 h-5 text-yellow-400"/>
+                            <Zap className="w-5 h-5 size-4 text-yellow-400"/>
                             <span className="text-gray-300 ">Fast Performance</span>
                         </div>
                         <div className="dlex items-center gap-2 px-2 md:px-6 lg:px-4 py-1 md:py-2 lg:py-2 bg-purple-500/10 border-pink-500/20 rounded-lg">
@@ -56,7 +56,7 @@ export default function Home() {
                     </div>
 
                     <div className="">
-                        <div className="flex items-center justify-center pt-2 md:pt-6 lg:pt-6 space-x-4 gap-2 md:gap-4 lg:gap-6">
+                        <div className="flex items-center justify-center pt-4 md:pt-6 lg:pt-6 space-x-4 gap-2 md:gap-4 lg:gap-6">
                             <a href="https://github.com/Harweh"
                                 target="_blank"
                                 rel="noonpener noreferrer"
@@ -100,13 +100,13 @@ export default function Home() {
                     </div>
 
                     {/* Buttons */}
-                    <div className="flex flex-row md:flex-col-2 lg:flex-col-2 gap-2 md:gap-4 lg:gap-4 justify-center items-center pt-2 md:pt-6 lg:pt-6 animte-fade-on-up animation-delay-600">
+                    <div className="flex flex-row md:flex-col-2 lg:flex-col-2 gap-2 md:gap-4 lg:gap-4 justify-center items-center pt-4 md:pt-6 lg:pt-6 animte-fade-on-up animation-delay-600">
                         {/* primary button */}
                         <Link href="/projects"
                             className="relative px-3 md:px-6 lg:px-8 py-2.5 md:py-4 lg:py-4 bg-gradient-to-r from-black-500 to-green-500 te-black-500 text-white font-semibold rounded-xl overflow-hidden transition-all hover:scale-105 hover:shadow-lg hover:shadow-purple-500/50">
                                 <span className="relative z-10 flex items-center gap-2">
                                     View My Work
-                                    <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform"/>
+                                    {/* <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform"/> */}
                                 </span>
                                 <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent translate-x-[100%] group-hover:translate-x-[100%] transition-transform duration-700 "></div>
                         </Link>
@@ -116,7 +116,7 @@ export default function Home() {
                             className="group px-1 md:px-6 lg:px-8 py-2.5 md:py-4 lg:py-4 bg-white/5 backdrop-blur-lg border-2 border-white/10 text-white font-semibold rounded-xl hover:border-white/20 transition-all">
                             <span className="relative z-10 flex items-center gap-2">
                                 Connect with me
-                                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform"/>
+                                {/* <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform"/> */}
                             </span>
                         </Link>
                     </div>
@@ -124,7 +124,7 @@ export default function Home() {
                     {/* media links */}           
 
                     {/* scroll indicator */}
-                    <div className="pt-10 animate-fade-in animation-delay-800">
+                    <div className="pt-12 animate-fade-in animation-delay-800">
                         <div className="inline-flex flex-col items-center gap-2 text-gray-500 animate-bounce">
                             <span className="text-sm">Scroll to exploroe</span>
                             <div className="w-6 h-10 border-2 border-gray-500 rounded-full flex items-start justify-center p-2">
