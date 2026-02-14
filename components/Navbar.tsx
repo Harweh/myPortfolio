@@ -80,7 +80,7 @@ export default function Navbar() {
                         <Link
                             href="/contact"
                             className='relative px-2 py-0.5 bg-gradient-to-r from-green-500 to-black text-white front-semibold rounded-xl overflow-hidden group hover:from-pink-400'>
-                                <span className="relative z-10 text-sm">Schedule a meeting</span>
+                                <span className="relative z-10 text-sm">Get in Touch</span>
                                 {/* shinning effect */}
                                 <div className="absolute inset-0 bg-gradient-to-r from-transparent to-transparent translate-x-[-100%] group-hover:translate-x-[-100%] transition duration-700">
             

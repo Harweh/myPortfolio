@@ -15,61 +15,61 @@ export default function About() {
     return (
         <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900/20 to-gray-900">
         {/* Hero Section */}
-            <section className="pt-32 pb-20 px-4">
+            <section className="pt-28 pb-10 px-2 md:px-4 lg:px-4">
                 <div className="max-w-7xl mx-auto">
 
-                    <div className="space-y-6  ">
-                        <h2 className="text-4xl flex flex-col justify-center items-center font-bold text-white">
-                                Hi, I'm  <span className="bg-gradient-to-l from-green-400 to-black bg-clip-text text-transparent mt-2">Emmanuel Oluwatobi Awe</span>
+                    <div className="space-y-2 md:space-y-6 lg:space-y-6  ">
+                        <h2 className="text-xl md:text-4xl lg:text-4xl flex flex-col justify-center items-center font-bold text-white">
+                                Hi, I'm  <span className="bg-gradient-to-l from-green-400 to-black bg-clip-text text-transparent mt- md:mt-2 lg:mt-2">Emmanuel Oluwatobi Awe</span>
                         </h2>
-                        <p className="text-xl md:text-1xl text-gray-400 max-w-full px-4 md:px-6 lg:px-8 mx-auto">
+                        <p className="text-sm md:text-1xl lg:text-xl text-gray-400 max-w-full px-2 md:px-6 lg:px-8 mx-auto">
                             I'm a <span className=" text-green-500">Full Stack Developer</span> with a passion for creating beautiful, 
                             functional web applications. With expertise in the MERN stack and MENN stack. My core Strength lies in frontend development,
                             where i build responsive, user-friendly interface, I bring ideas to life through clean code and intuitive design... On the backend, I have a solid working Knowledge of building APIs, handling authentication,
                             database management, and server-side logic.
                         </p>    
                             
-                            <div className="flex flex-wrap justify-center gap-5 pt-2 animate-fade-in-up animation-delay-400">
-                                <div className="p-2 px-4 gap-2 flex justify-center items-center  bg-gray-900/50 border-1  border-gray-500/50 rounded-4xl">
-                                    <div className=" text-lg text-yellow-500">
+                            <div className="flex flex-wrap  justify-center gap-2 md:gap-5 lg:gap-5 pt-2 animate-fade-in-up animation-delay-400">
+                                <div className="p-2 px- md:px-4 lg:px-4 gap-2 flex justify-center items-center  bg-gray-900/50 border-1  border-gray-500/50 rounded-4xl">
+                                    <div className=" text-xl md:text-lg lg:text-lg text-yellow-500">
                                         <SiJavascript/>
                                     </div>
-                                        <p className='text-xl mt-1 text-gray-500'>JavaScript</p>
+                                        <p className='text-sm md:text-lg lg:text-lg mt-1 text-gray-500'>JavaScript</p>
                                 </div>
 
-                                <div className="p-2  px-4 gap-2 flex justify-center items-center  bg-gray-900/50 border-1  border-gray-500/50 rounded-4xl">
-                                    <div className=" text-lg text-blue-500">
+                                <div className="p-2  px- md:px-4 lg:px-4 gap-2 flex justify-center items-center  bg-gray-900/50 border-1  border-gray-500/50 rounded-4xl">
+                                    <div className=" text-xl md:text-lg lg:text-lg text-blue-500">
                                         <SiTailwindcss/>
                                     </div>
-                                        <p className='text-xl mt-1 text-gray-500'>Tailwind</p>
+                                        <p className='text-sm md:text-xl lg:text-xl mt-1 text-gray-500'>Tailwind</p>
                                 </div>
 
-                                <div className="p-2 px-4 gap-2 flex justify-center items-center  bg-gray-900/50 border-1  border-gray-500/50 rounded-4xl">
+                                <div className="p-2 px- md:px-4 lg:px-4 gap-2 flex justify-center items-center  bg-gray-900/50 border-1  border-gray-500/50 rounded-4xl">
                                     <div className="text-xl text-blue-500">
                                         <SiReact/>
                                     </div>
-                                        <p className='text-xl mt-1 text-gray-500 '>React</p>
+                                        <p className='text-sm md:text-xl lg:text-xl mt-1 text-gray-500 '>React</p>
                                 </div>                        
 
-                                <div className="p-2 px-4 gap-2 flex justify-center items-center  bg-gray-900/50 border-1  border-gray-500/50 rounded-4xl">
+                                <div className="p-2 px- md:px-4 lg:px-4 gap-2 flex justify-center items-center  bg-gray-900/50 border-1  border-gray-500/50 rounded-4xl">
                                     <div className="text-xl">
                                         <SiNextdotjs/>
                                     </div>
-                                        <p className="text-xl mt-1 text-gray-500">Next.js</p>
+                                        <p className="text-sm md:text-xl lg:text-xl mt-1 text-gray-500">Next.js</p>
                                 </div>
 
-                                <div className="p-1.5 px-2 gap-2 flex justify-center items-center  bg-gray-900/50 border-1  border-gray-500/50 rounded-4xl">
+                                <div className="p-1.5 px- md:px-4 lg:px-4 gap-2 flex justify-center items-center  bg-gray-900/50 border-1  border-gray-500/50 rounded-4xl">
                                     <div className="text-xl text-green-500">
                                         <SiNodedotjs/>
                                     </div>
-                                        <p className='text-xl mt-1 text-gray-500'>Node.js</p>
+                                        <p className='text-sm md:text-xl lg:text-xl mt-1 text-gray-500'>Node.js</p>
                                 </div>
 
-                                <div className="p-2 px-4 gap-2 flex justify-center items-center  bg-gray-900/50 border-1 border-gray-500/50 rounded-4xl">
+                                <div className="p-2 px- md:px-4 lg:px-4 gap-2 flex justify-center items-center  bg-gray-900/50 border-1 border-gray-500/50 rounded-4xl">
                                     <div className="text-xl text-gray-500">
                                         <SiExpress/>
                                     </div>
-                                        <p className='text-xl mt-1 text-gray-500'>Express</p>
+                                        <p className='text-sm md:text-xl lg:text-xl mt-1 text-gray-500'>Express</p>
                                 </div>
                             </div>
 

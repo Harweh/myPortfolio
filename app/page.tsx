@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import { ArrowRight, Sparkles, Code, Zap, X, Mail } from 'lucide-react';
+import { ArrowRight, Sparkles, Code, Zap, X, Mail, Code2 } from 'lucide-react';
 import Link from "next/link";
 // import { BsWhatsapp } from 'react-icons/bs';
 // import { FaFacebook, FaGithub, FaInstagram, FaWhatsapp } from "react-icons/fa";
@@ -41,7 +41,7 @@ export default function Home() {
                     <div className="flex flex-wrap flex-col-3 md:flex-col-3 lg:flex-col-3 justify-center text-sm md:text-base lg:text-base gap-2 md:gap-4 lg:gap-5 pt-2 md:pt-4 lg:pt-4 animate-fade-in-up animation-delay-400">
 
                         <div className="dlex items-center gap-2 px-2 md:px-4 lg:px-4 py-1 md:py-2 lg:py-2 bg-purple-500/10 border-pink-500/20 rounded-lg">
-                            <Code className="w-5 h-5 size-1 text-blue-400" />
+                            <Code2 className="w-5 h-5 size-1 text-blue-400" />
                             <span className="text-gray-300">Clean Code</span>
                         </div>
                         <div className="dlex items-center gap-2 px-2 md:px-4 lg:px-4 py-1 md:py-2 lg:py-2 bg-purple-500/10 border-pink-500/20 rounded-lg">
