@@ -13,18 +13,18 @@ export default function Home() {
         <div className="max-h-screen bg-gradient-to-br from-gray-900 via-gray-900/20 to-grey-900 relative overflow-hidden pt-32 md:pt-55 lg:pt-115">
 
             {/* Main Content */}
-            <div className="relative z-10 flex item-center justify-center min-h-screen px-16 pt-16  md:pt-16 lg:pt-20 py-8 ">
+            <div className="relative z-10 flex item-center justify-center min-h-screen px-16 pt-8  md:pt-16 lg:pt-20 py-8 ">
                 <div className="max-w-5xl w-full text-center space-y-6 ">
 
                     {/* welcome Badge */}
                     <div className="inline-flex items-center justify-center gap-3 px-2 md:px-4 lg:px-6 py-2 md:py-4 lg:py-4 
-                            bg-white/5 backdrop-blur-lg border border-white/10 rounded-full text-xsm md:text-xl lg:text-xl text-gray-300 mb-8 animate-fade-in">
+                            bg-white/5 backdrop-blur-lg border border-white/10 rounded-full text-sm md:text-xl lg:text-xl text-gray-300 mb-8 animate-fade-in">
                         <Sparkles className="w-4 md:w-6 lg:w-8 h-4 text-green-400" />
                         <span>Welcome to my portfolio</span>
                     </div>
                     
                     {/* main heading */}
-                    <h1 className="text-2xl md:text-6xl lg:text-6xl font-bold animate-fade-in-up">
+                    <h1 className="text-xl md:text-6xl lg:text-6xl font-bold animate-fade-in-up">
                         <span className="block bg-gradient-to-r from-white-400 to-green-400 to-black-400 bg-clip-text text-transparent md:mb-2 lg:mb-4">Hello, I'm</span>
                         <span className="block text-gray-500">Emmanuel Oluwatobi Awe.</span>
                     </h1>
@@ -38,7 +38,7 @@ export default function Home() {
                     </p>
 
                     {/* feature tags */}
-                    <div className="flex flex-wrap justify-center text-sm md:text-base lg:text-base gap-2 md:gap-4 lg:gap-5 md:pt-4 lg:pt-4 animate-fade-in-up animation-delay-400">
+                    <div className="flex flex-wrap flex-col-3 md:flex-col-3 lg:flex-col-3 justify-center text-sm md:text-base lg:text-base gap-2 md:gap-4 lg:gap-5 md:pt-4 lg:pt-4 animate-fade-in-up animation-delay-400">
 
                         <div className="dlex items-center gap-2 px-2 md:px-4 lg:px-4 py-1 md:py-2 lg:py-2 bg-purple-500/10 border-pink-500/20 rounded-lg">
                             <Code className="w-5 h-5 text-blue-400" />
@@ -100,7 +100,7 @@ export default function Home() {
                     </div>
 
                     {/* Buttons */}
-                    <div className="flex flex-col-2 md:flex-col-2 lg:flex-col-2 gap-2 md:gap-4 lg:gap-4 justify-center items-center pt-2 md:pt-6 lg:pt-6 animte-fade-on-up animation-delay-600">
+                    <div className="flex flex-row md:flex-col-2 lg:flex-col-2 gap-2 md:gap-4 lg:gap-4 justify-center items-center pt-2 md:pt-6 lg:pt-6 animte-fade-on-up animation-delay-600">
                         {/* primary button */}
                         <Link href="/projects"
                             className="relative px-3 md:px-6 lg:px-8 py-2.5 md:py-4 lg:py-4 bg-gradient-to-r from-black-500 to-green-500 te-black-500 text-white font-semibold rounded-xl overflow-hidden transition-all hover:scale-105 hover:shadow-lg hover:shadow-purple-500/50">
