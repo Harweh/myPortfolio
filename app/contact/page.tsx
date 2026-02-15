@@ -157,77 +157,77 @@ type FormStatus = 'idle' | 'loading' | 'success' | 'error';
     return (
         <div className="min-h-screen bg-gradient-to-br from-gray-900 to-grey-900">
 
-            <div className="relative z-10 max-w-7xl mx-auto px-12 md:px-6 lg:px-2 pt-23 md:pt-25 lg:pt-100">
+            <div className="relative z-10 max-w-7xl mx-auto px-2 md:px-6 lg:px-2 pt-20 md:pt-25 lg:pt-100">
 
                     {/* Page Header */}
-                    <div className="text-center mt-16 md:mt-18 lg:mt-25  space-y-6">
-                        <h1 className="text-5xl md:text-7xl font-bold text-white">
-                            Contact Me 
+                <div className="text-center mt-6 md:mt-18 lg:mt-15  space-y-2 md:space-y-6 lg:space-y-6">
+                    <h1 className="text-4xl md:text-7xl lg:text-7xl font-bold text-white">
+                        Contact Me 
                             {/* <span className=" bg-gradient-to-r from-purple-500 via-pink-500 to-green-500 bg-clip-text text-transparent">Touch</span> */}
-                        </h1>
-                        <p className="pb-14 text-xl text-gray-400 max-w-2xl mx-auto">
-                            Have a project in mind? I'd love to hear about it. Let's create something amazing together!
-                        </p>
-                    </div>
+                    </h1>
+                    <p className="pb-6 text-sm md:text-xl lg:text-xl text-gray-400 max-w-2xl mx-auto">
+                        Have a project in mind? I'd love to hear about it. Let's create something amazing together!
+                    </p>
+                </div>
 
-                    <div className="grid md:grid-cols-2 gap-12 items-start">
+                <div className="grid md:grid-cols-2 gap-12 items-start">
 
                         {/* LEFT SIDE - Contact Info */}
 
-                        <div className="space-y-6  px-8 md: lg:px-0 ">
+                    <div className="space-y-2 md:space-y-6 lg:space-y-6  px-6 md:px-8 lg:px-0 ">
                                 {/* Info Cards */}
-                                <div className="space-y-6">
+                                <div className="space-y-2 md:space-y-6 lg:space-y-6">
                                 {/* Email Card */}
-                                <div className="p-4 sm:p-3 md:p-6 lg:p-6 bg-white/5 backdrop-blur-lg border border-white/10 rounded-xl hover:bg-white/10 transition-all group">
-                                    <div className="flex items-center gap-4">
+                                <div className="p-2 md:p-6 lg:p-6 bg-white/5 backdrop-blur-lg border border-white/10 rounded-xl hover:bg-white/10 transition-all group">
+                                    <div className="flex items-center gap-2 md:gap-4 lg:gap-4">
                                         <div className="w-12 h-12 bg-gradient-to-br from-500 to-500 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform">
-                                            <Mail className="text-green-500" size={24} />
+                                            <Mail className="text-green-500 md:size-20 lg:size-24" size={15} />
                                         </div>
                                     <div>
-                                        <h3 className="text-white font-semibold">Email</h3>
-                                        <p className="text-gray-400">E.awetobi@gmail.com</p>
+                                        <h3 className="text-white text-sm md:text-base lg:text-base font-semibold">Email</h3>
+                                        <p className="text-gray-400 text-sm md:text-base lg:text-base">E.awetobi@gmail.com</p>
                                     </div>
                                 </div>
                             </div>
 
                                 {/* Phone Card */}
-                                <div className="p-4 sm:p-3 md:p-6 lg:p-6 bg-white/5 backdrop-blur-lg border border-white/10 rounded-xl hover:bg-white/10 transition-all group">
-                                    <div className="flex items-center gap-4">
+                                <div className="p-2 md:p-6 lg:p-6 bg-white/5 backdrop-blur-lg border border-white/10 rounded-xl hover:bg-white/10 transition-all group">
+                                    <div className="flex items-center gap-2 md:gap-4 lg:gap-4">
                                     <div className="w-12 h-12 bg-gradient-to-br from--500 to--500 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform">
-                                        <Phone className="text-green-500" size={24} />
+                                        <Phone className="text-green-500 md:size-20 lg:size-24" size={15} />
                                     </div>
                                     <div>
-                                        <h3 className="text-white font-semibold">Phone</h3>
-                                        <p className="text-gray-400">+234 (810) 560-2133</p>
+                                        <h3 className="text-white text-sm md:text-base lg:text-base font-semibold">Phone</h3>
+                                        <p className="text-gray-400 text-sm md:text-base lg:text-base">+234 (810) 560-2133</p>
                                     </div>
                                     </div>
                                 </div>
 
                                 {/* Location Card */}
                                 <div className="p-4 sm:p-3 md:p-6 lg:p-6 bg-white/5 backdrop-blur-lg border border-white/10 rounded-xl hover:bg-white/10 transition-all group">
-                                    <div className="flex items-center gap-4">
+                                    <div className="flex items-center gap-2 md:gap-4 lg:gap-4">
                                     <div className="w-12 h-12 bg-gradient-to-br from--500 to--500 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform">
-                                        <MapPin className="text-green-500" size={24} />
+                                        <MapPin className="text-green-500 md:size-20 lg:size-24" size={15} />
                                     </div>
                                     <div>
-                                        <h3 className="text-white font-semibold">Location</h3>
-                                        <p className="text-gray-400">Lagos, Nigeria</p>
+                                        <h3 className="text-white text-sm md:text-base lg:text-base font-semibold">Location</h3>
+                                        <p className="text-gray-400 text-sm md:text-base lg:text-base">Lagos, Nigeria</p>
                                     </div>
                                     </div>
                                 </div>
                                 </div>
 
                                 {/* Available Badge */}
-                                <div className="p-6 sm:p-3 md:p-6 lg:p-6 bg-gray-500/10 border-2 border-white/10 border-green-500 rounded-3xl">
-                                <div className="flex items-center justify-center gap-3">
+                                <div className="p-4 md:p-6 lg:p-6 bg-gray-500/10 border-t border-white/10 border-green-500 rounded-2xl md:rounded-3xl">
+                                <div className="flex items-center justify-center gap-2">
                                     <div className="w-3 h-3 bg-green-400 rounded-full animate-pulse"></div>
-                                    <p className="text-green-400 font-semibold">Available for freelance work</p>
+                                    <p className="text-green-400 text-sm md:text-base lg:text-base font-semibold ">Available for freelance work</p>
                                 </div>
                                 </div>
                         </div>
 
                         {/* RIGHT SIDE - Contact Form */}
-                        <div className="p-8.5 lg:p-1 bg-white/ border-0 border-white/10 rounded-xl">
+                        <div className="p-7 lg:p-1 bg-white/ border-0 border-white/10 rounded-xl">
                             {/* Error Banner */}
                             {status === 'error' && (
                             <div className="mb-10 p-4 bg-red-500/ border-2 border-white/10 border-red-500/ rounded-xl flex items-center gap-3">
@@ -236,10 +236,10 @@ type FormStatus = 'idle' | 'loading' | 'success' | 'error';
                             </div>
                             )}
 
-                            <form onSubmit={handleSubmit} className="space-y-6">
+                            <form onSubmit={handleSubmit} className="space-y-4 md:space-y-6 lg:space-y-6">
                             {/* Name Field */}
                             <div>
-                                <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-2">
+                                <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-1 md:mb-2 lg:mb-2">
                                 Your Name
                                 </label>
                                 <input
@@ -261,7 +261,7 @@ type FormStatus = 'idle' | 'loading' | 'success' | 'error';
 
                             {/* Email Field */}
                             <div>
-                                <label htmlFor="email" className="block text-sm font-medium text-gray-300 mb-2">
+                                <label htmlFor="email" className="block text-sm font-medium text-gray-300 mb-2mb-1 md:mb-2 lg:mb-2">
                                 Email Address
                                 </label>
                                 <input
@@ -282,7 +282,7 @@ type FormStatus = 'idle' | 'loading' | 'success' | 'error';
 
                             {/* Subject Field */}
                             <div>
-                                <label htmlFor="subject" className="block text-sm font-medium text-gray-300 mb-2">
+                                <label htmlFor="subject" className="block text-sm font-medium text-gray-300 mb-1 md:mb-2 lg:mb-2">
                                 Subject
                                 </label>
                                 <input
@@ -303,7 +303,7 @@ type FormStatus = 'idle' | 'loading' | 'success' | 'error';
 
                             {/* Message Field */}
                             <div>
-                                <div className="flex justify-between mb-2">
+                                <div className="flex justify-between mb-1 md:mb-2 lg:mb-2">
                                 <label htmlFor="message" className="block text-sm font-medium text-gray-300">
                                     Message
                                 </label>
@@ -332,7 +332,7 @@ type FormStatus = 'idle' | 'loading' | 'success' | 'error';
                             <button
                                 type="submit"
                                 disabled={status === 'loading'}
-                                className="w-full px-8 py-4 bg-gradient-to-r from-green-600 via-black to-green-700/90  text-white font-semibold rounded-xl overflow-hidden group disabled:opacity-70 disabled:cursor-not-allowed hover:scale-105 transition-all"
+                                className="w-full px8 py-3 bg-gradient-to-r from-green-600 via-black to-green-700/90  text-white font-semibold rounded-xl overflow-hidden group disabled:opacity-70 disabled:cursor-not-allowed hover:scale-105 transition-all"
                             >
                                 <span className="relative z-50 flex items-center justify-center gap-2">
                                 {status === 'loading' ? (
@@ -350,7 +350,7 @@ type FormStatus = 'idle' | 'loading' | 'success' | 'error';
                             </button>
                             </form>
                         </div>
-                    </div>
+                </div>
             </div>
 
         </div>

@@ -30,44 +30,44 @@ export default function About() {
                         </p>    
                             
                             <div className="flex flex-wrap  justify-center gap-2 md:gap-5 lg:gap-5 pt-2 animate-fade-in-up animation-delay-400">
-                                <div className="p-2 px- md:px-4 lg:px-4 gap-2 flex justify-center items-center  bg-gray-900/50 border-1  border-gray-500/50 rounded-4xl">
-                                    <div className=" text-xl md:text-lg lg:text-lg text-yellow-500">
+                                <div className="p-2 px- md:px-4 lg:px-4 gap-1 md:gap-2 lg:gap-2 flex justify-center items-center  bg-gray-900/50 border-b  border-gray-500/50 rounded-4xl">
+                                    <div className=" text-lg md:text-xl lg:text-xl text-yellow-500">
                                         <SiJavascript/>
                                     </div>
                                         <p className='text-sm md:text-lg lg:text-lg mt-1 text-gray-500'>JavaScript</p>
                                 </div>
 
-                                <div className="p-2  px- md:px-4 lg:px-4 gap-2 flex justify-center items-center  bg-gray-900/50 border-1  border-gray-500/50 rounded-4xl">
-                                    <div className=" text-xl md:text-lg lg:text-lg text-blue-500">
+                                <div className="p-2  px- md:px-4 lg:px-4 gap-1 md:gap-2 lg:gap-2 flex justify-center items-center  bg-gray-900/50 border-b  border-gray-500/50 rounded-4xl">
+                                    <div className=" text-lg md:text-xl lg:text-xl text-blue-500">
                                         <SiTailwindcss/>
                                     </div>
                                         <p className='text-sm md:text-xl lg:text-xl mt-1 text-gray-500'>Tailwind</p>
                                 </div>
 
-                                <div className="p-2 px- md:px-4 lg:px-4 gap-2 flex justify-center items-center  bg-gray-900/50 border-1  border-gray-500/50 rounded-4xl">
-                                    <div className="text-xl text-blue-500">
+                                <div className="p-2 px- md:px-4 lg:px-4 gap-1 md:gap-2 lg:gap-2 flex justify-center items-center  bg-gray-900/50 border-b  border-gray-500/50 rounded-4xl">
+                                    <div className="text-lg md:text-xl lg:text-xl text-blue-500">
                                         <SiReact/>
                                     </div>
                                         <p className='text-sm md:text-xl lg:text-xl mt-1 text-gray-500 '>React</p>
                                 </div>                        
 
-                                <div className="p-2 px- md:px-4 lg:px-4 gap-2 flex justify-center items-center  bg-gray-900/50 border-1  border-gray-500/50 rounded-4xl">
-                                    <div className="text-xl">
+                                <div className="p-2 px- md:px-4 lg:px-4 gap-1 md:gap-2 lg:gap-2 flex justify-center items-center  bg-gray-900/50 border-b  border-gray-500/50 rounded-4xl">
+                                    <div className="text-lg md:text-xl lg:text-xl">
                                         <SiNextdotjs/>
                                     </div>
                                         <p className="text-sm md:text-xl lg:text-xl mt-1 text-gray-500">Next.js</p>
                                 </div>
 
-                                <div className="p-1.5 px- md:px-4 lg:px-4 gap-2 flex justify-center items-center  bg-gray-900/50 border-1  border-gray-500/50 rounded-4xl">
-                                    <div className="text-xl text-green-500">
+                                <div className="p-1.5 px- md:px-4 lg:px-4 gap-1 md:gap-2 lg:gap-2 flex justify-center items-center  bg-gray-900/50 border-b  border-gray-500/50 rounded-4xl">
+                                    <div className="text-lg md:text-xl lg:text-xl text-green-500">
                                         <SiNodedotjs/>
                                     </div>
                                         <p className='text-sm md:text-xl lg:text-xl mt-1 text-gray-500'>Node.js</p>
                                 </div>
 
-                                <div className="p-2 px- md:px-4 lg:px-4 gap-2 flex justify-center items-center  bg-gray-900/50 border-1 border-gray-500/50 rounded-4xl">
-                                    <div className="text-xl text-gray-500">
-                                        <SiExpress/>
+                                <div className="p-2 px- md:px-4 lg:px-4 gap-1 md:gap-2 lg:gap-2 flex justify-center items-center  bg-gray-900/50 border-b border-gray-500/50 rounded-4xl">
+                                    <div className="text-lg md:text-xl lg:text-xl text-green-500">
+                                        <SiMongodb/>
                                     </div>
                                         <p className='text-sm md:text-xl lg:text-xl mt-1 text-gray-500'>Express</p>
                                 </div>
@@ -75,7 +75,7 @@ export default function About() {
 
                                 <div className="flex flex-wrap justify-center pt-3 animate-fade-in-up animation-delay-400">            
                                     <Link
-                                        href="/conntact"
+                                        href="/contact"
                                         className='group px-1.5 md:px-3 lg:px-3 py- md:py-2 lg:py-2 bg-white/5 backdrop-blur-lg border-2 border-white/10 text-white font-semibold rounded-xl hover:border-white/20  transition-all'>
                                         <span className="relative z-10 mt-2 flex items-center">Connect with me</span>
                                             {/* shinning effect */}

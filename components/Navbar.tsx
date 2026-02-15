@@ -33,7 +33,7 @@ export default function Navbar() {
                 <div className="flex items-center justify-between h-13 md:h-20 lg:h-20">
 
                         {/* logo */}
-                        <Link href="/" className='group flex md:px-2 lg:px-2 items-center space-y- md:space-y-2 lg:space-y-1'>
+                        <Link href="/" className='group flex px-2 md:px-2 lg:px-2 items-center space-y- md:space-y-2 lg:space-y-1'>
                             <div className="relative">
                                 <div className="w-22 md:w-27 lg:w-27 h-7 md:h-12 lg:h-12 pb-2 bg-gradient-to-br from-black-700 to-green-700 rounded-xl flex 
                                     items-center justify-center transfomr group-hover:scale-110 transition-transform duration-300">
@@ -77,20 +77,20 @@ export default function Navbar() {
                     {/* mobile menu button */}
 
                         <div className="md:hidden relative flex items-center gap-2 ">
-                        <Link
+                        {/* <Link
                             href="/contact"
                             className='relative px-2 py-0.5 bg-gradient-to-r from-green-500 to-black text-white front-semibold rounded-xl overflow-hidden group hover:from-pink-400'>
                                 <span className="relative z-10 text-sm">Get in Touch</span>
-                                {/* shinning effect */}
+                                shinning effect
                                 <div className="absolute inset-0 bg-gradient-to-r from-transparent to-transparent translate-x-[-100%] group-hover:translate-x-[-100%] transition duration-700">
             
                                 </div>
-                        </Link>
+                        </Link> */}
 
                         <button onClick={() => setIsOpen(!isOpen)} 
                             className='md:hidden relative w-10 h-10 text-gray-300 hover:text-white transition-colors focus:outline-none'
                             aria-label='Toggle menu'>
-                                {isOpen ? <X size={15} /> : <Menu size={15}/>}
+                                {isOpen ? <X size={18} /> : <Menu size={18}/>}
                         </button>
                     </div>
                     
