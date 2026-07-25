@@ -29,7 +29,7 @@ const Footer = () => {
                         <div className="flex space-x-2 md:space-x-4 lg:space-x-4 gap-2 md:gap-4 lg:gap-4">
                             <a href="https://"
                             target="_blank"
-                            rel="noonpener noreferrer"
+                            rel="noopener noreferrer"
                             className="text-white hover:text-black transition-colors"
                             >
                                 <Github size={15} />
@@ -37,7 +37,7 @@ const Footer = () => {
 
                             <a href="https://"
                             target="_blank"
-                            rel="noonpener noreferrer"
+                            rel="noopener noreferrer"
                             className="text-white hover:text-black transition-colors"
                             >
                                 <Linkedin size={15} />
@@ -45,7 +45,7 @@ const Footer = () => {
 
                             <a href="https://twitter.com/"
                             target="_blank"
-                            rel="noonpener noreferrer"
+                            rel="noopener noreferrer"
                             className="text-white hover:text-black transition-colors"
                             >
                                 <Twitter size={15} />
@@ -53,7 +53,7 @@ const Footer = () => {
                         
                             <a href="https://mail.com/"
                             target="_blank"
-                            rel="noonpener noreferrer"
+                            rel="noopener noreferrer"
                             className="text-g hover:text-black transition-colors"
                             >
                                 <Mail size={15} />

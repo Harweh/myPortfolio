@@ -35,7 +35,7 @@ export default function Navbar() {
                         {/* logo */}
                         <Link href="/" className='group flex px-2 md:px-2 lg:px-2 items-center space-y- md:space-y-2 lg:space-y-1'>
                             <div className="relative">
-                                <div className="w-22 md:w-27 lg:w-27 h-7 md:h-12 lg:h-12 pb-2 bg-gradient-to-br from-black-700 to-green-700 rounded-xl flex 
+                                <div className="w-22 md:w-27 lg:w-27 h-7 md:h-12 lg:h-12 pb-2 bg-gradient-to-br from-gray-900 to-green-700 rounded-xl flex 
                                     items-center justify-center transfomr group-hover:scale-110 transition-transform duration-300">
                                     <span className='text-white font-bold texts-sm sm:text-sm md:text-xl lg:text-xl pt-2.5'>EMMY.Dv</span>
                                 </div>
@@ -54,7 +54,7 @@ export default function Navbar() {
                                 href={link.href}
                                 className='relative px-4 py-2 text-gray-300 hover:text-white transition-colors group'>
                                 {link.name}
-                                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r  from-black-500 to-green-500 group-hover:w-full transition-all duration-300"></span>
+                                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r  from-gray-900 to-green-500 group-hover:w-full transition-all duration-300"></span>
                             </Link>
                         ))}
                     </div>
@@ -125,4 +125,3 @@ export default function Navbar() {
         </nav>
     );
 }
-

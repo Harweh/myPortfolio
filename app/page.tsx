@@ -25,13 +25,13 @@ export default function Home() {
                     
                     {/* main heading */}
                     <h1 className="text-xl md:text-6xl lg:text-6xl font-bold animate-fade-in-up">
-                        <span className="block bg-gradient-to-r from-white-400 to-green-400 to-black-400 bg-clip-text text-transparent md:mb-2 lg:mb-4">Hello, I'm</span>
+                        <span className="block bg-gradient-to-r from-white to-green-400 bg-clip-text text-transparent md:mb-2 lg:mb-4">Hello, I'm</span>
                         <span className="block text-gray-500">Emmanuel Oluwatobi Awe.</span>
                     </h1>
 
                     {/* subtitle */}
-                    <p className="text-sm md:text-2xl text-gray-400 max-w-4xl mx-auto leading-relaxed animate-faded-in-up animation-delay-200">
-                        <span className=" bg-gradient-to-r from-green-400 to-black-400 to-green-400 bg-clip-text text-transparent">  Full-stack developer </span> 
+                    <p className="text-sm md:text-2xl text-gray-400 max-w-4xl mx-auto leading-relaxed animate-fade-in-up animation-delay-200">
+                        <span className=" bg-gradient-to-r from-green-400 to-emerald-600 bg-clip-text text-transparent">  Full-stack developer </span> 
                         crafting beautiful, functional web applications with
                         modern technologies and creative solutions.
 
@@ -40,17 +40,17 @@ export default function Home() {
                     {/* feature tags */}
                     <div className="flex flex-wrap flex-col-3 md:flex-col-3 lg:flex-col-3 justify-center text-sm md:text-base lg:text-base gap-2 md:gap-4 lg:gap-5 pt-2 md:pt-4 lg:pt-4 animate-fade-in-up animation-delay-400">
 
-                        <div className="dlex items-center gap-2 px-2 md:px-4 lg:px-4 py-1 md:py-2 lg:py-2 bg-purple-500/10 border-pink-500/20 rounded-lg">
+                        <div className="flex items-center gap-2 px-2 md:px-4 lg:px-4 py-1 md:py-2 lg:py-2 bg-purple-500/10 border-pink-500/20 rounded-lg">
                             <Code2 className="w-5 h-5 size-1 text-blue-400" />
                             <span className="text-gray-300">Clean Code</span>
                         </div>
-                        <div className="dlex items-center gap-2 px-2 md:px-4 lg:px-4 py-1 md:py-2 lg:py-2 bg-purple-500/10 border-pink-500/20 rounded-lg">
+                        <div className="flex items-center gap-2 px-2 md:px-4 lg:px-4 py-1 md:py-2 lg:py-2 bg-purple-500/10 border-pink-500/20 rounded-lg">
                             <Zap className="w-5 h-5 size-4 text-yellow-400"/>
                             <span className="text-gray-300 ">Fast Performance</span>
                         </div>
-                        <div className="dlex items-center gap-2 px-2 md:px-6 lg:px-4 py-1 md:py-2 lg:py-2 bg-purple-500/10 border-pink-500/20 rounded-lg">
+                        <div className="flex items-center gap-2 px-2 md:px-6 lg:px-4 py-1 md:py-2 lg:py-2 bg-purple-500/10 border-pink-500/20 rounded-lg">
                             <Sparkles className="w-5 h-5 text-green-400"/>
-                            <span className="yext-gray-300">Modern Design</span>
+                            <span className="text-gray-300">Modern Design</span>
                         </div>
 
                     </div>
@@ -59,7 +59,7 @@ export default function Home() {
                         <div className="flex items-center justify-center pt-4 md:pt-6 lg:pt-6 space-x-4 gap-2 md:gap-4 lg:gap-6">
                             <a href="https://github.com/Harweh"
                                 target="_blank"
-                                rel="noonpener noreferrer"
+                                rel="noopener noreferrer"
                                 className="text-white hover:text-black transition-colors"
                             >
                                 <SiGithub className='size-5 md:size-10 lg:size-10' />
@@ -67,7 +67,7 @@ export default function Home() {
 
                             <a href="https://www.linkedin.com/in/emmanuel-awe-831236273?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                                 target="_blank"
-                                rel="noonpener noreferrer"
+                                rel="noopener noreferrer"
                                 className="text-blue-500 hover:text-gray-500 transition-colors"
                                 >
                                     <SiLinkedin size={20} className='size-5 md:size-10 lg:size-10' />
@@ -75,7 +75,7 @@ export default function Home() {
 
                             <a href="https://mail.google.com/mail/u/1/#inboxm"
                                 target="_blank"
-                                rel="noonpener noreferrer"
+                                rel="noopener noreferrer"
                                 className="text-g hover:text-gray-500 transition-colors"
                                 >
                                     <Mail size={20} className='size-5 md:size-10 lg:size-10' />
@@ -83,7 +83,7 @@ export default function Home() {
 
                             <a href="https://wa.me/2347050411114"
                                 target="_blank"
-                                rel="noonpener noreferrer"
+                                rel="noopener noreferrer"
                                 className="text-green-500 hover:text-gray-500 transition-colors"
                                 >
                                     <SiWhatsapp size={20} className='size-5 md:size-10 lg:size-10' />
@@ -91,7 +91,7 @@ export default function Home() {
                         
                             <a href="https://x.com/Emmy_Dev22"
                                 target="_blank"
-                                rel="noonpener noreferrer"
+                                rel="noopener noreferrer"
                                 className="text-g hover:text-gray-500 transition-colors"
                                 >
                                     <X size={20} className='size-5 md:size-10 lg:size-10' />
@@ -100,10 +100,10 @@ export default function Home() {
                     </div>
 
                     {/* Buttons */}
-                    <div className="flex flex-row md:flex-col-2 lg:flex-col-2 gap-2 md:gap-4 lg:gap-4 justify-center items-center pt-4 md:pt-6 lg:pt-6 animte-fade-on-up animation-delay-600">
+                    <div className="flex flex-row md:flex-col-2 lg:flex-col-2 gap-2 md:gap-4 lg:gap-4 justify-center items-center pt-4 md:pt-6 lg:pt-6 animate-fade-in-up animation-delay-600">
                         {/* primary button */}
                         <Link href="/projects"
-                            className="relative px-3 md:px-6 lg:px-8 py-1.5 md:py-4 lg:py-4 bg-gradient-to-r from-black-500 to-green-500 te-black-500 text-white font-semibold rounded-xl overflow-hidden transition-all hover:scale-105 hover:shadow-lg hover:shadow-purple-500/50">
+                            className="relative px-3 md:px-6 lg:px-8 py-1.5 md:py-4 lg:py-4 bg-gradient-to-r from-gray-900 to-green-500 text-white font-semibold rounded-xl overflow-hidden transition-all hover:scale-105 hover:shadow-lg hover:shadow-purple-500/50">
                                 <span className="relative text-sm md:text-2xl lg:text-2xl z-10 flex items-center gap-2">
                                     View My Work
                                     {/* <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform"/> */}

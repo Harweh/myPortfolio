@@ -165,7 +165,7 @@ type FormStatus = 'idle' | 'loading' | 'success' | 'error';
                         Contact Me 
                             {/* <span className=" bg-gradient-to-r from-purple-500 via-pink-500 to-green-500 bg-clip-text text-transparent">Touch</span> */}
                     </h1>
-                    <p className="pb-6 text-sm md:text-xl lg:text-xl text-gray-400 max-w-2xl mx-auto">
+                    <p className="pb-6 text-sm md:text-xl lg:text-xl text-gray-400 max-w-xl mx-auto">
                         Have a project in mind? I'd love to hear about it. Let's create something amazing together!
                     </p>
                 </div>

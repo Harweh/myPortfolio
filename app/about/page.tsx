@@ -69,7 +69,7 @@ export default function About() {
                                     <div className="text-lg md:text-xl lg:text-xl text-green-500">
                                         <SiMongodb/>
                                     </div>
-                                        <p className='text-sm md:text-xl lg:text-xl mt-1 text-gray-500'>Express</p>
+                                        <p className='text-sm md:text-xl lg:text-xl mt-1 text-gray-500'>MongoDB</p>
                                 </div>
                             </div>
 
