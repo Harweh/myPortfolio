@@ -195,7 +195,7 @@ const resend = new Resend(process.env.RESEND_API_KEY);
         // FROM: Must be verified in Resend OR use onboarding@resend.dev for testing
         from: 'onboarding@resend.dev',
         // TO: Your email address (where you receive contact messages)
-        to: ['e.awetobi@gmail.com'],
+        to: ['vickyboi229@gmail.com'],
         // Email subject line
         subject: `Portfolio Contact: ${body.subject}`,
         // HTML email body (beautiful formatting!)
