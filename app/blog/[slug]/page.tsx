@@ -196,4 +196,65 @@
 
 
 
+import { notFound } from 'next/navigation'
+import Image from 'next/image'
+import Link from 'next/link'
+import { Calendar, Clock, ArrowLeft } from 'lucide-react'
+import { getPostBySlug } from '@/lib/posts'
 
+export default async function BlogPostPage({ params }: { params: Promise<{ slug: string }> }) {
+    const { slug } = await params
+    const post = getPostBySlug(slug)
+
+    if (!post) {
+        notFound()
+    }
+
+    return (
+        <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-900/20 to-gray-900 pt-32 md:pt-40 lg:pt-48 pb-20">
+            <div className="max-w-3xl mx-auto px-4 md:px-8">
+                <Link
+                    href="/blog"
+                    className="inline-flex items-center gap-2 text-gray-400 hover:text-white transition-colors mb-8"
+                >
+                    <ArrowLeft size={16} />
+                    Back to Blog
+                </Link>
+
+                {post.coverImage && (
+                    <div className="relative w-full aspect-video rounded-xl overflow-hidden mb-8 bg-gray-800">
+                        <Image src={post.coverImage} alt={post.title} fill className="object-cover" />
+                    </div>
+                )}
+
+                <h1 className="text-3xl md:text-5xl font-bold text-white mb-4">{post.title}</h1>
+
+                <div className="flex items-center gap-4 text-sm text-gray-500 mb-6">
+                    <span className="flex items-center gap-1.5">
+                        <Calendar size={14} />
+                        {post.date}
+                    </span>
+                    <span className="flex items-center gap-1.5">
+                        <Clock size={14} />
+                        {post.readTime}
+                    </span>
+                </div>
+
+                <div className="flex flex-wrap gap-2 mb-8">
+                    {post.tags.map((tag) => (
+                        <span
+                            key={tag}
+                            className="text-xs px-2 py-1 bg-white/5 border border-white/10 rounded-full text-gray-300"
+                        >
+                            {tag}
+                        </span>
+                    ))}
+                </div>
+
+                <div className="prose prose-invert max-w-none text-gray-300 space-y-4 whitespace-pre-line">
+                    {post.content ?? post.excerpt}
+                </div>
+            </div>
+        </div>
+    )
+}
