@@ -18,7 +18,7 @@ const Footer = () => {
                             <div className="w-9 md:w-12 lg:w-12 h-8 md:h-10 lg:h-10 bg-gradient-to-br from-black-500 to-green-500 rounded-lg flex items-center justify-center">
                                 <span className="text-white font-bold text-sm md:text-lg lg:text-lg pt-0.5">E.D</span>
                             </div>
-                            <span className="text-sm md:text-xl lg:text-xl font-bold text-white pt-0.5 md:pt-0 lg:pt-0">EMMY.Dev</span>
+                            <span className="text-sm md:text-xl lg:text-xl font-bold text-white pt-0.5 md:pt-0 lg:pt-0">EmmyDev</span>
                         </div>
                         <p className="text-gray-400 mb-2 md:mb-4 lg:mb-4 max-w-md">
                             Building modern web application with cutting-edge technologies. 
@@ -102,11 +102,7 @@ const Footer = () => {
                         <div className="flex space-x-6 mt-2 md:mt-0 ">
                             <Link href="/privacy" 
                             className="text-gray-400 hover:text-white text-sm transition-colors">
-                                Privaacy Policy
-                            </Link>
-                            <Link href="/terms" 
-                            className="text-gray-400 hover:text-white text-sm transition-colors">
-                                Terms of Service
+                                Privacy Policy
                             </Link>
                         </div>
                     </div>

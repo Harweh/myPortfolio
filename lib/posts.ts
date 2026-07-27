@@ -6,7 +6,7 @@ export const posts: BlogPost[] = [
     {
     slug: 'building-my-portfolio',
     title: 'Building My Portfolio: Bugs, Typos, and Everything In Between',
-    excerpt: 'What actually happens when you build a portfolio site — the broken deploys, the silent Tailwind typos, and the small wins along the way.',
+    excerpt: 'What actually happens when you build a portfolio site the broken deploys, the silent Tailwind typos, and the small wins along the way.',
     date: 'Jul 2026',
     readTime: '4 min read',
     tags: ['Next.js', 'Web Dev', 'Journey'],

@@ -106,7 +106,7 @@ export default function ProjectsPage() {
                 <div className="text-center mb-10 md:mb-16">
                     <h1 className="text-3xl md:text-5xl font-bold text-white mb-4">My Projects</h1>
                     <p className="text-gray-400 max-w-2xl mx-auto">
-                        A collection of things I've built — add more projects to the array above as you ship them.
+                        A collection of things I've built.
                     </p>
                 </div>
 
