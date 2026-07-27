@@ -111,7 +111,8 @@ export default function ProjectsPage() {
                 </div>
 
                 {projects.length > 0 ? (
-                    <div className="row sm:grid-cols-2 lg:grid-cols-3 gap-15">
+                    // <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+                    <div className="flex flex-col gap-5">
                         {projects.map((project) => (
                             <ProjectCard key={project.id} project={project} />
                         ))}

@@ -35,9 +35,9 @@ export default function Navbar() {
                         {/* logo */}
                         <Link href="/" className='group flex px-2 md:px-2 lg:px-2 items-center space-y- md:space-y-2 lg:space-y-1'>
                             <div className="relative">
-                                <div className="w-22 md:w-27 lg:w-27 h-7 md:h-12 lg:h-12 pb-2 bg-gradient-to-br from-gray-900 to-green-700 rounded-xl flex 
+                                <div className="w-22 md:w-27 lg:w-27.5 h-7 md:h-12 lg:h-12 pb-2 bg-gradient-to-br from-gray-900 to-green-700 rounded-xl flex 
                                     items-center justify-center transfomr group-hover:scale-110 transition-transform duration-300">
-                                    <span className='text-white font-bold texts-sm sm:text-sm md:text-xl lg:text-xl pt-2.5'>EMMY.Dv</span>
+                                    <span className='text-white font-bold texts-sm sm:text-sm md:text-xl lg:text-xl pt-2.5'>EmmyDev</span>
                                 </div>
                                 {/* glow effect */}
                                 <div className="absolute inset-0 bg-graadient-to-br from-purple-500 to-pink-500 rounded-xl

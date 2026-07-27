@@ -129,7 +129,7 @@ type FormStatus = 'idle' | 'loading' | 'success' | 'error';
     // SUCCESS SCREEN - shown after successful submission
     if (status === 'success') {
         return (
-        <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900/20 to-gray-900 flex items-center justify-center px-4">
+        <div className="min-h-screen bg-gradient-to-br from-gray-900 via-green-900/20 to-gray-900 flex items-center justify-center px-2">
             <div className="max-w-md w-full text-center space-y-6 p-8 bg-white/5 backdrop-blur-lg border border-white/10 rounded-2xl">
             {/* Success Icon */}
             <div className="flex justify-center">
@@ -144,7 +144,7 @@ type FormStatus = 'idle' | 'loading' | 'success' | 'error';
             {/* Back to Form Button */}
             <button
                 onClick={handleReset}
-                className="px-8 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold rounded-xl hover:scale-105 transition-all"
+                className="px-8 py-3 bg-gradient-to-r from-grey-900 via-green-500 to-grey-700 text-white border-0 font-semibold rounded-xl hover:scale-105 transition-all"
             >
                 Send Another Message
             </button>
