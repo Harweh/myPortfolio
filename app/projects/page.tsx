@@ -94,7 +94,8 @@ const projects: Project[] = [
         technologies: ['Next.js', 'Javacript', 'Tailwind CSS'],
         category: 'fullstack',
         githubUrl: 'https://github.com/Harweh/scent-frontend.git',
-        liveUrl: 'https://scent-frontend-fcmb-silk.vercel.app/',
+        // liveUrl: 'https://scent-frontend-fcmb-silk.vercel.app/',
+        liveUrl: 'https://scent-frontend-theta.vercel.app/',
         featured: true,
     },
 ]
